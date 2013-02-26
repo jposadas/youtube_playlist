@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CS184 Hw 3 | Juan posadas </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link type="text/css" rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css">
+		<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap.js"></script>
+	</head>
+	<body>
+		<h1> Style Guide</h1>
+		
+		<hr>
+
+		<section> 
+		<h2> Sections </h2>	
+			<nav>
+			 	<ul>
+			   		<li><a href="#">Home</a></li>
+				   	<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav> 
+		<footer>
+			<p> The links above don't actually link to anything </p>
+		</footer>
+		</section>
+		
+		<header>
+			<article>
+				<h4> Final Project for CS184 </h4>
+				<p> Despite many attempts, I believe I have finaled thought of the perfect thing </p>
+				<address>
+					Written by: <a href="#"> Juan Posadas </a>.<br>
+				</address>
+			</article>
+		
+		</header>
+
+		<aside>
+			<h4> Using the &lt;article&gt; tag </h4>
+			<p> Not much to say. It seems like a pretty cool tag </h4>
+		</aside>
+
+		<hgroup>
+			<h2> Here we try heading 2 </h2>
+			<h3> Here we try heading 3 </h3>
+			<h4> Here we try heading 4 </h4>
+		</hgroup>
+
+		<hr>
+
+		<section>
+			<h2> Grouping Content </h2>
+			<p> Among the tags in this section we have pre hr p and others <p>
+			<pre>
+				while(true) {
+					printf("You had me at Hello, World");
+				}
+			</pre>
+			
+			<ol>
+				<li> So this is how you make a list </li>
+				<li> Just follow these steps </li>
+			</ol>
+			
+			<dl>
+				<dt> We are gonna define Computer Science </dt>
+				<dd> Fun!</dd>
+			</dl>
+
+			<figure>
+			 	<img src="http://files.softicons.com/download/sport-icons/soccer-worldcup-2010-icons-by-ergosign/png/128/soccer_ball.png" alt="Soccer Ball">
+				<figcaption> Just a good old soccer ball </figcaption>
+			</figure>
+		
+			<div style="color:#0000FF">
+				
+				<p> This is text in a div tag. </p>
+
+			</div>
+		</section>
+	
+		<hr>
+
+		<section>
+			<h2> Text level semantics </h2>
+			
+			<ul>
+				<li><em>Emphasized text</em></li>
+				<li><strong>Strong text</strong></li>
+				<li><dfn>Definition term</dfn></li>
+				<li><code>A piece of computer code</code></li>
+				<li><samp>Sample output from a computer program</samp></li>
+				<li><kbd>Keyboard input</kbd></li>
+				<li><var>Variable</var></li>
+			</ul>
+
+			<p> This <i> Paragraph </i> is kind of <u>Underlined</u> and contains a <sup> superscript</sup> and a <sub> subscript </sub>.</p>
+
+		</section>
+
+		<hr>
+
+	<section>
+	
+	<h2> Edits </h2>
+
+	<p> This section simply shows how to <del> delete stuff </del> and <ins> add stuff </ins>. </p>
+	</section>
+
+	<hr>
+
+	<section>
+
+		<h2> Embedded Content </h2>
+
+		<img src="http://argentinatraveler.files.wordpress.com/2011/07/che-guevara.jpg" alt="Che Guevara" width="150" height="150">
+		<p> He might be a hero to some, a villain to others </p>
+
+		<iframe src="http://www.w3schools.com">
+			<p> We can also embed another document here </p>
+		</iframe>
+
+		<p> One of my favorite songs </p>
+		<audio controls>
+			<source src="http://dc233.4shared.com/img/1104579756/ebf03457/dlink__2Fdownload_2FdaCl1Dfn_3Ftsid_3D20120301-030302-397cca45/preview.mp3" type="audio/mpeg">
+		</audio>
+		<p><b>Song | Author:</b>Where is My Mind | Pixies</p>
+
+	</section>
+	
+	<hr>
+
+	<section>
+
+	<h2> Tabular Data </h2>
+
+
+	<table border="5">
+	<caption> Classes I Enjoy the Most </caption>
+	<colgroup>
+		<col span="1" style="background-color:blue">
+	</colgroup>
+	<tr>
+		<th>Class</th>
+		<th>Professor</th>
+	</tr>
+	<tr>
+		<th>CS109</th>
+		<th>Mehran Sahami</th>
+	</tr>
+	<tr>
+		<th>PORTLANG 2A</th>
+		<th> Tom Winterbottom</th>
+	</tr>
+	</table>
+
+
+	</section>
+
+	<hr>
+
+	<section>
+		<h2> Forms </h2>
+
+		<p class="span5"> Welcome to The FrACTION. </p> <br/>
+
+		<br/>
+		<br/>
+		<form class="well span5">
+			<input type="text" class="span3" name="fname"  placeholder="someone@example.com"><br>
+			<input type="text" class="span3"name="fpassword" placeholder="Password"><br>
+			<button class="btn btn-primary">Submit</button> 
+			<button class="btn" type="button" onclick="alert('Coming Soon')"> Sign Up? </button>
+		</form>
+		
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		
+		<p> Please choose a side </p>
+	   	<form>
+	   		<label for="fraction">FrACTION</label>
+		  	<input type="radio" name="side" id="fraction" value="fraction"><br>
+         	<label for="female">Faction</label>
+        	<input type="radio" name="side" id="faction" value="GAY"><br><br>
+			<input type="submit" value="Choose!">
+		</form>
+		
+		<p> Please select a side </p>
+
+		<select>
+			<optgroup label="God Side">
+				<option value="fraction"> FrACTION </option>
+			</optgroup>
+			<optgroup label="Non God Side">	
+				<option value="faction"> Faction </option>
+			</optgroup>
+		</select>
+
+		<br>
+
+		<textarea placeholder="Please Describe why you chose the fraction" rows="4" cols="50">
+		</textarea>
+
+		<p> Please write your side</p>
+		<form>
+			<input list="side" name="side">
+			<datalist id="side">
+				<option value="FrACTION">
+				<option value="faction">
+			</datalist>
+			<input type="submit" value="Choose!">
+		</form>
+
+		</section>
+		<hr>
+		<section>
+			<h2> Interactive Elements </h2>
+			<details>
+			<summary> Brought to you by Juan Posadas </summary>
+			<p> -All rights reserved. 1992-2013 </p>
+			</details>
+		</section>
+		<hr>	
+	</body>
+
+</html>
